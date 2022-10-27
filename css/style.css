@@ -1,8 +1,151 @@
 @import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
 @import url("swiper-bundle.min.css");
 * {
   box-sizing: border-box;
 }
 html {
   font-size: 16px;
+}
+.body {
+  font-family: 'Jost', sans-serif;
+}
+.header {
+  border-bottom: 1px solid #ECF3FF;
+}
+.container {
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+}
+.header-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-height: 39px;
+}
+.header-nav-left {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+}
+.header-nav-left-link {
+  font-family: 'Jost';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5D6C7B;
+}
+.header-nav-left-social {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 8.5px;
+}
+.header-nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hedear-nav-phone {
+  font-family: 'Jost';
+  text-decoration: none;
+  font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+color: #282739;
+}
+.header-main {
+  margin: 27px 0 40px 0;
+}
+.header-main-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header-main-left {
+  display: flex;
+    list-style: none;
+    align-items: center;
+}
+.main-logo {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 43px;
+text-transform: uppercase;
+color: #282739;
+text-decoration: none;
+margin-right: 35px;
+}
+.header-main-left-catalog {
+  background: #6F73EE;
+    border: 1.5px solid #6F73EE;
+    border-radius: 5px;
+    width: 114px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.catalog{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.header-main-left-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-search {
+  width: 603px;
+  height: 40px;
+  border: 1.5px solid #6F73EE;
+border-radius: 5px;
+}
+.button-search {
+  margin-left: -40px;
+  width: 40px;
+  height: 40px;
+  background: #6F73EE;
+border: 1.5px solid #6F73EE;
+border-radius: 0px 5px 5px 0px;
+}
+.header-main-right {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+}
+.header-main-right-item:last-child {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+
+}
+.shopping-cart-text {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #282739;
+}
+
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 69.3125rem;
+  }
+
 }
