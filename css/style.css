@@ -92,6 +92,9 @@ margin-right: 35px;
     display: flex;
     align-items:center;
     justify-content: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 .catalog{
   font-family: 'Jost';
@@ -101,6 +104,36 @@ font-size: 16px;
 line-height: 23px;
 color: #FFFFFF;
 text-decoration: none;
+}
+.catalog-menu-burger {
+  height: 22px;
+  width: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding: 5.5px 4px;
+  margin-right: 9px;
+  margin-left: -9px;
+}
+.catalog-menu-line {
+  height: 1px;
+  background-color: #fff;
+  width: 100%;
+  transition: transform 0.5s;
+}
+.catalog-menu-line:last-child {
+  width: 50%;
+}
+.close-menu .catalog-menu-line:nth-child(2) {
+  display: none;
+}
+.close-menu .catalog-menu-line:nth-child(1) {
+  transform: rotate(45deg) translateY(9px);
+}
+.close-menu .catalog-menu-line:nth-child(3) {
+  transform: rotate(-45deg) translateY(-9px);
+  width: 100%;
 }
 .header-main-left-search {
   display: flex;

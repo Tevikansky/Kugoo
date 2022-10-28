@@ -62,7 +62,15 @@
             <a href="" class="main-logo">Kugoo</a>
           </div>
           <div class="header-main-left-catalog">
-            <a href="" class="catalog">Каталог</a>
+            <a href="" class="catalog-menu">
+            <div class="catalog-menu-burger">
+              <div class="catalog-menu-line"></div>
+              <div class="catalog-menu-line"></div>
+              <div class="catalog-menu-line"></div>
+            </div>
+            </a>
+            <a href="" class="catalog">
+            Каталог</a>
           </div>
           <div class="header-main-left-search">
             <form action="" class="form-search"></form>
