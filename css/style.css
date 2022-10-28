@@ -9,6 +9,7 @@ html {
 }
 .body {
   font-family: 'Jost', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .header {
   border-bottom: 1px solid #ECF3FF;
@@ -45,6 +46,9 @@ html {
   align-items:center;
   gap: 8.5px;
 }
+.header-nav-left-social-link{
+  margin-top: 3px;
+}
 .header-nav-right {
   display: flex;
   justify-content: center;
@@ -58,6 +62,7 @@ font-weight: 500;
 font-size: 12px;
 line-height: 17px;
 color: #282739;
+padding-top: 3px;
 }
 .header-main {
   margin: 27px 0 40px 0;
@@ -153,6 +158,7 @@ border-radius: 5px;
   background: #6F73EE;
 border: 1.5px solid #6F73EE;
 border-radius: 0px 5px 5px 0px;
+padding: 10px;
 }
 .header-main-right {
 display: flex;
@@ -166,6 +172,10 @@ gap: 25px;
   gap: 10px;
 
 }
+.header-main-right-item:nth-child(1),
+.header-main-right-item:nth-child(2){
+  margin-top: 4px;
+}
 .shopping-cart-text {
 font-family: 'Jost';
 font-style: normal;
@@ -174,11 +184,281 @@ font-size: 14px;
 line-height: 20px;
 color: #282739;
 }
+.container-second {
+  max-width: 1380px;
+  margin: auto;
+  position: relative;
+}
+.test-drive {
+z-index: 0;
+  min-width: 1380px;
+  min-height: 445px;
+  background: linear-gradient(73.21deg, #6F73EE 17.37%, rgba(111, 115, 238, 0) 67.02%);
+  border-radius: 10px;
+}
+.test-drive-bg {
+  position: absolute;
+  right: 0px;
+  top: -145px;
+  object-fit: cover;
+  height: 618px;
+  z-index: -1;
+}
+.test-drive-wrapper-main {
+  padding-left: 136px;
+    padding-top: 45px;
+}
+.test-drive-wrapper-first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.test-drive-wrapper-first-svg {
+  margin-right: 5px;
+}
+.test-drive-street {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+color: #FFFFFF;
+padding-left: 2px;
+}
+.test-drive-time {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  padding-left: 11px;
+}
+.test-drive-title {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #FFFFFF;
+max-width: 604px;
+    margin-top: 7px;
+    margin-bottom: -14px;
+}
+.test-drive-text {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.test-drive-wrapper-second {
+  margin-top: -3px;
+  display: flex;
+  gap: 44px;
+}
+.test-drive-item {
+  display: flex;
+  gap: 16px;
+  align-items:center
+}
+.test-drive-item-text {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+max-width: 139px;
+}
+button {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1.3px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #6F73EE;
+}
+.record {
+  margin-top: 25px;
+  width: 158px;
+  max-height: 53px;
+}
+.first-advantages {
+  display: flex;
+  margin-top: 72px;
+    margin-left: 134px;
+    gap: 95px;
+}
+.advanteges-wrapper{
+max-width: 650px;
+}
+.advanteges-wrapper-main-tittle {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #282739;
+}
+.advanteges-wrapper-tittle {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #282739;
+}
+.advanteges-wrapper-list {
+list-style: none;
+padding: 0;
+margin: -2px 1px;
+}
+.advanteges-wrapper-item {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+color: #282739;
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+letter-spacing: -0.4px;
+}
+.second-advantages {
+  display: flex;
+    margin-top: 101px;
+    gap: 95px;
+}
+.available-models {
+  margin-top: 100px;
+}
+.available-models-title {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-align: center;
+text-transform: uppercase;
+color: #282739;
+max-width: 720px;
+margin: auto;
+}
+.swiper {
+  width: 1109px;
+}
+.swiper-slide-scooter {
+  height: 492px;
+width: 255px;
+  border: 1.5px solid #EAEBED;
+  border-radius: 10px;
+  margin-top: 49px;
+  margin-right: 29px;
+}
+.swiper-slide-header{
+  height: 231px;
+width: 255px;
+  background: #F0F1F5;
+border-radius: 10px 10px 0px 0px;
+display: flex;
+}
+.swiper-slide-header-label {
+  width: 41px;
+  height: 25px;
+  background: #EE685F;
+border-radius: 5px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+color: #FFFFFF;
+display: flex;
+align-items:center;
+justify-content: center;
+z-index: 1;
+margin: 9px;
+}
+.swiper-slide-header-img {
+  position:absolute;
+  top: 24px;
+}
+.swiper-slide-header-comparison {
+  z-index: 1;
+  margin-left: auto;
+    margin-top: 16px;
+    margin-right: 18px;
+}
+.swiper-slide-footer-title {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #282739;
+}
+.swiper-slide-footer-features-item-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #5D6C7B;
+}
+.swiper-slide-footer {
+  margin: 18px 23px;
+  margin-bottom: 0;
+}
+.swiper-slide-footer-cost-price-old {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+text-decoration-line: line-through;
+color: #5D6C7B;
+}
+.swiper-slide-footer-cost-price-current {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 29px;
+color: #282739;
+}
+@media (max-width: 1620px) {
+  .container {
+    max-width: 88.3125rem;
+  }
 
+}
 
 @media (max-width: 1440px) {
   .container {
     max-width: 69.3125rem;
+  }
+
+}
+
+@media (max-width: 1120px) {
+  .container {
+    max-width: 67.3125rem;
   }
 
 }

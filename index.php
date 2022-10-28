@@ -9,8 +9,11 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!-- <?php include_once ('./template-parts/favicon.php')?> -->
   <title>Kugo</title>
 </head>
@@ -31,17 +34,17 @@
             <a href="" class="header-nav-left-link">Заказать звонок</a>
           </li>
           <li class="header-nav-left-social">
-            <a href="" class="header-nav-left-link-social">
+            <a href="" class="header-nav-left-social-link">
               <svg width="12" height="13" class="header-nav-left-link-social-svg">
                 <use href="img/sprite.svg#Viber"></use>
               </svg>
             </a>
-            <a href="" class="header-nav-left-link-social">
+            <a href="" class="header-nav-left-social-link">
               <svg width="13" height="13" class="header-nav-left-link-social-svg">
                 <use href="img/sprite.svg#WhatsApp"></use>
               </svg>
             </a>
-            <a href="" class="header-nav-left-link-social">
+            <a href="" class="header-nav-left-social-link">
               <svg width="12" height="13" class="header-nav-left-link-social-svg">
                 <use href="img/sprite.svg#Telegram"></use>
               </svg>
@@ -63,45 +66,233 @@
           </div>
           <div class="header-main-left-catalog">
             <a href="" class="catalog-menu">
-            <div class="catalog-menu-burger">
-              <div class="catalog-menu-line"></div>
-              <div class="catalog-menu-line"></div>
-              <div class="catalog-menu-line"></div>
-            </div>
+              <div class="catalog-menu-burger">
+                <div class="catalog-menu-line"></div>
+                <div class="catalog-menu-line"></div>
+                <div class="catalog-menu-line"></div>
+              </div>
             </a>
             <a href="" class="catalog">
-            Каталог</a>
+              Каталог</a>
           </div>
           <div class="header-main-left-search">
             <form action="" class="form-search"></form>
             <button class="button-search">
-            <svg width="16" height="16" class="button-search-svg">
+              <svg width="16" height="16" class="button-search-svg">
                 <use href="img/sprite.svg#search"></use>
-            </svg>
+              </svg>
             </button>
           </div>
         </div>
         <div class="header-main-right">
           <a href="#" class="header-main-right-item">
+            <img src="img/balance.svg" alt="balance">
+          </a>
+          <a href="#" class="header-main-right-item">
             <svg width="20" height="20" class="header-main-right-item-svg">
-                <use href="img/sprite.svg#balance"></use>
+              <use href="img/sprite.svg#favorites"></use>
             </svg>
           </a>
           <a href="#" class="header-main-right-item">
             <svg width="20" height="20" class="header-main-right-item-svg">
-                <use href="img/sprite.svg#favorites"></use>
+              <use href="img/sprite.svg#shopping-cart"></use>
             </svg>
-          </a>
-          <a href="#" class="header-main-right-item">
-            <svg width="20" height="20" class="header-main-right-item-svg">
-                <use href="img/sprite.svg#shopping-cart"></use>
-            </svg>
-            <span class="shopping-cart-text">Корзина</span> 
+            <span class="shopping-cart-text">Корзина</span>
           </a>
         </div>
       </div>
     </div>
   </nav>
+  <div class="container-second">
+    <section class="test-drive">
+      <img class="test-drive-bg" src="/img/young-woman.jpg" alt="young-woman">
+      <div class="test-drive-wrapper-main">
+        <div class="test-drive-wrapper-first">
+          <svg width="15" height="15" class="test-drive-wrapper-first-svg">
+            <use href="img/sprite.svg#location"></use>
+          </svg>
+          <p class="test-drive-street">
+            Восточно-Кругликовская улица, 86
+          </p>
+          <p class="test-drive-time">
+            Вт - Сб 10:00 - 20:00
+          </p>
+        </div>
+        <h2 class="test-drive-title">
+          Запишитесь на бесплатный тест-драйв электросамокатов
+        </h2>
+        <p class="test-drive-text">
+          в Москве без ограничения по времени
+        </p>
+        <div class="test-drive-wrapper-second">
+          <div class="test-drive-item">
+            <div class="test-drive-item-icon">
+              <svg width="40" height="40" class="test-drive-item-icon-svg">
+                <use href="img/sprite.svg#scooter"></use>
+              </svg>
+            </div>
+            <p class="test-drive-item-text">
+              Поймете, какая модель вам подходит
+            </p>
+          </div>
+          <div class="test-drive-item">
+            <div class="test-drive-item-icon">
+              <svg width="40" height="40" class="test-drive-item-icon-svg">
+                <use href="img/sprite.svg#lightning"></use>
+              </svg>
+            </div>
+            <p class="test-drive-item-text">
+              Проверите лучшие самокаты в деле
+            </p>
+          </div>
+        </div>
+        <button class="record">
+          Записаться
+        </button>
+
+    </section>
+  </div>
+  </div>
+  <div class="container-second">
+  <section class="first-advantages">
+    
+      <div class="advanteges-wrapper">
+        <h2 class="advanteges-wrapper-main-tittle">Определите максимально подходящую вам модель <br> не теоретически, а на практике</h2>
+        <h3 class="advanteges-wrapper-tittle">Тест-драйв поможет:</h3>
+        <ul class="advanteges-wrapper-list">
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Понять подходит ли вам конкретная модель;</li>
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Испытать самокат в «реальной жизни»;</li>
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Оценить удобство хранения и эксплуатации;</li>
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Узнать реальные характеристики и возможности модели.</li>
+        </ul>
+      </div>
+      <img src="img/Scooters.png" alt="Scooters" class="advantages-img">
+    
+  </section>
+  </div>
+
+  <div class="container-second">
+  <section class="second-advantages">
+  <img src="img/woman-on-scooter.png" alt="woman-on-scooter" class="advantages-img">
+      <div class="advanteges-wrapper">
+        <h2 class="advanteges-wrapper-main-tittle">Научим правильной<br>и безопасной езде в городе вас или вашего ребенка</h2>
+        <h3 class="advanteges-wrapper-tittle">На обучении специалист расскажет:</h3>
+        <ul class="advanteges-wrapper-list">
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Как подготовить самокат к поездке;</li>
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Как «завести» самокат;</li>
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Как вести себя во время поездки и обезопасить себя и окружающих;</li>
+          <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Как складывать и раскладывать электросамокат;</li>
+              <li class="advanteges-wrapper-item">
+              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              Как ухаживать за своим девайсом.</li>
+        </ul>
+      </div>
+      
+    
+  </section>
+  </div>
+<div class="container">
+  <section class="available-models">
+  <h2 class="available-models-title">Сейчас для тест-драйва и обучения доступны следующие модели</h2>
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide swiper-slide-scooter">
+<div class="swiper-slide-header">
+  <div class="swiper-slide-header-label">ХИТ
+  </div>
+  <div class="swiper-slide-header-img">
+  <img src="img/scooter.png" alt="scooter" width=245 heght=226>  
+</div>
+  <a href="#" class="swiper-slide-header-comparison">
+  <img src="img/balance.svg" alt="balance" >
+  </a>
+</div>
+<div class="swiper-slide-footer">
+  <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+  <div class="swiper-slide-footer-features">
+    <div class="swiper-slide-footer-features-item">
+      <div class="swiper-slide-footer-features-item-svg"></div>
+      <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+    </div>
+    <div class="swiper-slide-footer-features-item">
+      <div class="swiper-slide-footer-features-item-svg"></div>
+      <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+    </div>
+    <div class="swiper-slide-footer-features-item">
+      <div class="swiper-slide-footer-features-item-svg"></div>
+      <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+    </div>
+    <div class="swiper-slide-footer-features-item">
+      <div class="swiper-slide-footer-features-item-svg"></div>
+      <div class="swiper-slide-footer-features-item-title">5 часов</div>
+    </div>
+  </div>
+  <div class="swiper-slide-footer-cost">
+  <div class="swiper-slide-footer-cost-price">
+    <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+    <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+  </div>
+  <div class="swiper-slide-footer-cost-item"></div>
+  <div class="swiper-slide-footer-cost-item"></div>
+  </div>
+  <button class="record-test">Записаться на тест-драйв</button>
+</div>
+
+    </div>
+    <div class="swiper-slide swiper-slide-scooter"></div>
+    <div class="swiper-slide swiper-slide-scooter"> </div>
+    <div class="swiper-slide swiper-slide-scooter"> </div>
+  </div>
+
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
+  </section>
+
+</div>
+
 </body>
 
 
