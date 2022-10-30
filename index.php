@@ -12,8 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!-- <?php include_once ('./template-parts/favicon.php')?> -->
   <title>Kugo</title>
 </head>
@@ -154,143 +154,445 @@
   </div>
   </div>
   <div class="container-second">
-  <section class="first-advantages">
-    
+    <section class="first-advantages">
+
       <div class="advanteges-wrapper">
-        <h2 class="advanteges-wrapper-main-tittle">Определите максимально подходящую вам модель <br> не теоретически, а на практике</h2>
+        <h2 class="advanteges-wrapper-main-tittle">Определите максимально подходящую вам модель <br> не теоретически, а
+          на практике</h2>
         <h3 class="advanteges-wrapper-tittle">Тест-драйв поможет:</h3>
         <ul class="advanteges-wrapper-list">
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Понять подходит ли вам конкретная модель;</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Понять подходит ли вам конкретная модель;
+          </li>
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Испытать самокат в «реальной жизни»;</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Испытать самокат в «реальной жизни»;
+          </li>
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Оценить удобство хранения и эксплуатации;</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Оценить удобство хранения и эксплуатации;
+          </li>
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Узнать реальные характеристики и возможности модели.</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Узнать реальные характеристики и возможности модели.
+          </li>
         </ul>
       </div>
       <img src="img/Scooters.png" alt="Scooters" class="advantages-img">
-    
-  </section>
+
+    </section>
   </div>
 
   <div class="container-second">
-  <section class="second-advantages">
-  <img src="img/woman-on-scooter.png" alt="woman-on-scooter" class="advantages-img">
+    <section class="second-advantages">
+      <img src="img/woman-on-scooter.png" alt="woman-on-scooter" class="advantages-img">
       <div class="advanteges-wrapper">
-        <h2 class="advanteges-wrapper-main-tittle">Научим правильной<br>и безопасной езде в городе вас или вашего ребенка</h2>
+        <h2 class="advanteges-wrapper-main-tittle">Научим правильной<br>и безопасной езде в городе вас или вашего
+          ребенка</h2>
         <h3 class="advanteges-wrapper-tittle">На обучении специалист расскажет:</h3>
         <ul class="advanteges-wrapper-list">
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Как подготовить самокат к поездке;</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Как подготовить самокат к поездке;
+          </li>
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Как «завести» самокат;</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Как «завести» самокат;
+          </li>
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Как вести себя во время поездки и обезопасить себя и окружающих;</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Как вести себя во время поездки и обезопасить себя и окружающих;
+          </li>
           <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Как складывать и раскладывать электросамокат;</li>
-              <li class="advanteges-wrapper-item">
-              <svg width="22" height="22" class="advanteges-wrapper-item-svg">
-                <use href="img/sprite.svg#check"></use>
-              </svg>
-              Как ухаживать за своим девайсом.</li>
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Как складывать и раскладывать электросамокат;
+          </li>
+          <li class="advanteges-wrapper-item">
+            <svg width="22" height="22" class="advanteges-wrapper-item-svg">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            Как ухаживать за своим девайсом.
+          </li>
         </ul>
       </div>
-      
-    
-  </section>
+
+
+    </section>
   </div>
+  <div class="container">
+    <section class="available-models">
+      <h2 class="available-models-title">Сейчас для тест-драйва и обучения доступны следующие модели</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide swiper-slide-scooter">
+            <div class="swiper-slide-header">
+              <div class="swiper-slide-header-label">ХИТ
+              </div>
+              <div class="swiper-slide-header-img">
+                <img src="img/scooter.png" alt="scooter" width=245 heght=226>
+              </div>
+              <a href="#" class="swiper-slide-header-comparison">
+                <img src="img/balance.svg" alt="balance">
+              </a>
+            </div>
+            <div class="swiper-slide-footer">
+              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+              <div class="swiper-slide-footer-features">
+                <div class="swiper-slide-footer-features-item-first">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#accum"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-second">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#power"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-third">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#speedometer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-fourth">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#timer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                </div>
+              </div>
+              <div class="swiper-slide-footer-cost">
+                <div class="swiper-slide-footer-cost-price">
+                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                </div>
+                <div class="swiper-slide-footer-cost-buttons">
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#cart2"></use>
+                  </svg>
+                </div>
+                </a>
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#favorite"></use>
+                  </svg>
+                </div>
+                </a>
+                </div>
+              </div>
+              <button class="record-test">Записаться на тест-драйв</button>
+            </div>
+
+          </div>
+          <div class="swiper-slide swiper-slide-scooter">
+            <div class="swiper-slide-header">
+            <div class="swiper-slide-header-new">Новинка
+              </div>
+              <div class="swiper-slide-header-img">
+                <img src="img/scooter.png" alt="scooter" width=245 heght=226>
+              </div>
+              <a href="#" class="swiper-slide-header-comparison">
+                <img src="img/balance.svg" alt="balance">
+              </a>
+            </div>
+            <div class="swiper-slide-footer">
+              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+              <div class="swiper-slide-footer-features">
+                <div class="swiper-slide-footer-features-item-first">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#accum"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-second">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#power"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-third">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#speedometer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-fourth">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#timer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                </div>
+              </div>
+              <div class="swiper-slide-footer-cost">
+                <div class="swiper-slide-footer-cost-price">
+                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                </div>
+                <div class="swiper-slide-footer-cost-buttons">
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#cart2"></use>
+                  </svg>
+                </div>
+                </a>
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#favorite"></use>
+                  </svg>
+                </div>
+                </a>
+                </div>
+              </div>
+              <button class="record-test">Записаться на тест-драйв</button>
+            </div>
+
+          </div>
+          <div class="swiper-slide swiper-slide-scooter">
+            <div class="swiper-slide-header">
+              <div class="swiper-slide-header-label">ХИТ
+              </div>
+              <div class="swiper-slide-header-img">
+                <img src="img/scooter.png" alt="scooter" width=245 heght=226>
+              </div>
+              <a href="#" class="swiper-slide-header-comparison">
+                <img src="img/balance.svg" alt="balance">
+              </a>
+            </div>
+            <div class="swiper-slide-footer">
+              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+              <div class="swiper-slide-footer-features">
+                <div class="swiper-slide-footer-features-item-first">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#accum"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-second">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#power"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-third">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#speedometer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-fourth">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#timer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                </div>
+              </div>
+              <div class="swiper-slide-footer-cost">
+                <div class="swiper-slide-footer-cost-price">
+                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                </div>
+                <div class="swiper-slide-footer-cost-buttons">
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#cart2"></use>
+                  </svg>
+                </div>
+                </a>
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#favorite"></use>
+                  </svg>
+                </div>
+                </a>
+                </div>
+              </div>
+              <button class="record-test">Записаться на тест-драйв</button>
+            </div>
+
+          </div>
+          <div class="swiper-slide swiper-slide-scooter">
+            <div class="swiper-slide-header">
+            <div class="swiper-slide-header-new">Новинка
+              </div>
+              <div class="swiper-slide-header-img">
+                <img src="img/scooter.png" alt="scooter" width=245 heght=226>
+              </div>
+              <a href="#" class="swiper-slide-header-comparison">
+                <img src="img/balance.svg" alt="balance">
+              </a>
+            </div>
+            <div class="swiper-slide-footer">
+              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+              <div class="swiper-slide-footer-features">
+                <div class="swiper-slide-footer-features-item-first">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#accum"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-second">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#power"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-third">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#speedometer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                </div>
+                <div class="swiper-slide-footer-features-item-fourth">
+                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                    <use href="img/sprite.svg#timer"></use>
+                  </svg>
+                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                </div>
+              </div>
+              <div class="swiper-slide-footer-cost">
+                <div class="swiper-slide-footer-cost-price">
+                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                </div>
+                <div class="swiper-slide-footer-cost-buttons">
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#cart2"></use>
+                  </svg>
+                </div>
+                </a>
+                <a href="#"  class="swiper-slide-footer-cost-item">
+                <div class="swiper-slide-footer-cost-item-button">
+                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                    <use href="img/sprite.svg#favorite"></use>
+                  </svg>
+                </div>
+                </a>
+                </div>
+              </div>
+              <button class="record-test">Записаться на тест-драйв</button>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="container-second">
+    <section class="test-drive test-drive-bottom">
+      <div class="test-drive-wrapper-main">
+    <h2 class="test-drive-bottom-title">Нет нужной модели, которую хотите протестировать?</h2>
+    <p class="test-drive-bottom-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
+    <div class="test-drive-bottom-wrapper">
+      <form action="" class="test-drive-bottom-form"></form>
+      <button class="test-drive-bottom-button">Оставить заявку на тест-драйв</button>
+    </div>
+<div class="test-drive-bottom-checkbox">
+    <input type="checkbox">
+    <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <a href="" class="policy">политикой конфиденциальности</a> </p>
+    </div>
+<img src="img/portrait.png" alt="portrait" class="test-drive-bottom-img" >
+</div>
+    </section>
+  </div>
+<section class="footer-email">
+  <div class="container">
+    <div class="footer-email-wrapper">
+      <p class="footer-email-wrapper-text">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</p>
+      <div class="footer-email-wrapper-form">
+        <form action="" class="footer-email-wrapper-form-input"></form>
+        <button class="footer-email-wrapper-form-button">Подписаться</button>
+      </div>
+    </div>
+  </div>
+</section>
 <div class="container">
-  <section class="available-models">
-  <h2 class="available-models-title">Сейчас для тест-драйва и обучения доступны следующие модели</h2>
-
-<!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide swiper-slide-scooter">
-<div class="swiper-slide-header">
-  <div class="swiper-slide-header-label">ХИТ
-  </div>
-  <div class="swiper-slide-header-img">
-  <img src="img/scooter.png" alt="scooter" width=245 heght=226>  
-</div>
-  <a href="#" class="swiper-slide-header-comparison">
-  <img src="img/balance.svg" alt="balance" >
-  </a>
-</div>
-<div class="swiper-slide-footer">
-  <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
-  <div class="swiper-slide-footer-features">
-    <div class="swiper-slide-footer-features-item">
-      <div class="swiper-slide-footer-features-item-svg"></div>
-      <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
-    </div>
-    <div class="swiper-slide-footer-features-item">
-      <div class="swiper-slide-footer-features-item-svg"></div>
-      <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
-    </div>
-    <div class="swiper-slide-footer-features-item">
-      <div class="swiper-slide-footer-features-item-svg"></div>
-      <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
-    </div>
-    <div class="swiper-slide-footer-features-item">
-      <div class="swiper-slide-footer-features-item-svg"></div>
-      <div class="swiper-slide-footer-features-item-title">5 часов</div>
-    </div>
-  </div>
-  <div class="swiper-slide-footer-cost">
-  <div class="swiper-slide-footer-cost-price">
-    <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
-    <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
-  </div>
-  <div class="swiper-slide-footer-cost-item"></div>
-  <div class="swiper-slide-footer-cost-item"></div>
-  </div>
-  <button class="record-test">Записаться на тест-драйв</button>
-</div>
-
-    </div>
-    <div class="swiper-slide swiper-slide-scooter"></div>
-    <div class="swiper-slide swiper-slide-scooter"> </div>
-    <div class="swiper-slide swiper-slide-scooter"> </div>
-  </div>
-
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-</div>
-
-  </section>
-
+  <footer>
+    <section class="footer-upper">
+    
+        <div class="footer-upper-wrapper">
+          <p class="footer-upper-title">Каталог товаров</p>
+          <ul class="footer-upper-list">
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Электросамокаты</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Электроскутеры</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Электровелосипеды</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Электровелосипеды</a></li>
+          </ul>
+        </div>
+     
+        <div class="footer-upper-wrapper">
+          <p class="footer-upper-title">Покупателям</p>
+          <ul class="footer-upper-list second">
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Сервисный центр</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Доставка и оплата</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Рассрочка</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Тест-драйв</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Блог</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Сотрудничество</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Контакты</a></li>
+            <li class="footer-upper-item"><a href="#" class="footer-upper-link">Акции</a></li>
+          </ul>
+        </div>
+     
+        <div class="footer-upper-wrapper contacts">
+          <p class="footer-upper-title">Контакты</p>
+          <ul class="footer-upper-list">
+            <li class="footer-upper-item"><p class="call">Call-центр</p></li>
+            <li class="footer-upper-item"><a href="tel:+78005055461" class="footer-upper-tel">+7 (800) 505-54-61</a></li>
+            <li class="footer-upper-item"><p class="time">Пн-Вс 10:00 - 20:00</p></li>
+            <li class="footer-upper-item"><p class="call">Сервисный центр</p></li>
+            <li class="footer-upper-item"><a href="tel:+74993507692" class="footer-upper-tel">+7 (499) 350-76-92</a></li>
+            <li class="footer-upper-item"><p class="time">Пн-Вс 10:00 - 20:00</p></li>
+          </ul>
+        </div>
+        <div class="footer-upper-wrapper">
+          
+        </div>
+      </div>
+    </section>
+    <section class="footer-middle"></section>
+    <section class="footer-lower"></section>
+  </footer>
 </div>
 
 </body>
