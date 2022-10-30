@@ -290,20 +290,20 @@
                   <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
                 </div>
                 <div class="swiper-slide-footer-cost-buttons">
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#cart2"></use>
-                  </svg>
-                </div>
-                </a>
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#favorite"></use>
-                  </svg>
-                </div>
-                </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#cart2"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#favorite"></use>
+                      </svg>
+                    </div>
+                  </a>
                 </div>
               </div>
               <button class="record-test">Записаться на тест-драйв</button>
@@ -312,7 +312,7 @@
           </div>
           <div class="swiper-slide swiper-slide-scooter">
             <div class="swiper-slide-header">
-            <div class="swiper-slide-header-new">Новинка
+              <div class="swiper-slide-header-new">Новинка
               </div>
               <div class="swiper-slide-header-img">
                 <img src="img/scooter.png" alt="scooter" width=245 heght=226>
@@ -355,20 +355,20 @@
                   <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
                 </div>
                 <div class="swiper-slide-footer-cost-buttons">
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#cart2"></use>
-                  </svg>
-                </div>
-                </a>
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#favorite"></use>
-                  </svg>
-                </div>
-                </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#cart2"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#favorite"></use>
+                      </svg>
+                    </div>
+                  </a>
                 </div>
               </div>
               <button class="record-test">Записаться на тест-драйв</button>
@@ -420,20 +420,20 @@
                   <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
                 </div>
                 <div class="swiper-slide-footer-cost-buttons">
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#cart2"></use>
-                  </svg>
-                </div>
-                </a>
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#favorite"></use>
-                  </svg>
-                </div>
-                </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#cart2"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#favorite"></use>
+                      </svg>
+                    </div>
+                  </a>
                 </div>
               </div>
               <button class="record-test">Записаться на тест-драйв</button>
@@ -442,7 +442,7 @@
           </div>
           <div class="swiper-slide swiper-slide-scooter">
             <div class="swiper-slide-header">
-            <div class="swiper-slide-header-new">Новинка
+              <div class="swiper-slide-header-new">Новинка
               </div>
               <div class="swiper-slide-header-img">
                 <img src="img/scooter.png" alt="scooter" width=245 heght=226>
@@ -485,20 +485,20 @@
                   <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
                 </div>
                 <div class="swiper-slide-footer-cost-buttons">
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#cart2"></use>
-                  </svg>
-                </div>
-                </a>
-                <a href="#"  class="swiper-slide-footer-cost-item">
-                <div class="swiper-slide-footer-cost-item-button">
-                <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                    <use href="img/sprite.svg#favorite"></use>
-                  </svg>
-                </div>
-                </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#cart2"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide-footer-cost-item">
+                    <div class="swiper-slide-footer-cost-item-button">
+                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                        <use href="img/sprite.svg#favorite"></use>
+                      </svg>
+                    </div>
+                  </a>
                 </div>
               </div>
               <button class="record-test">Записаться на тест-драйв</button>
@@ -521,35 +521,37 @@
   <div class="container-second">
     <section class="test-drive test-drive-bottom">
       <div class="test-drive-wrapper-main">
-    <h2 class="test-drive-bottom-title">Нет нужной модели, которую хотите протестировать?</h2>
-    <p class="test-drive-bottom-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
-    <div class="test-drive-bottom-wrapper">
-      <form action="" class="test-drive-bottom-form"></form>
-      <button class="test-drive-bottom-button">Оставить заявку на тест-драйв</button>
-    </div>
-<div class="test-drive-bottom-checkbox">
-    <input type="checkbox">
-    <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <a href="" class="policy">политикой конфиденциальности</a> </p>
-    </div>
-<img src="img/portrait.png" alt="portrait" class="test-drive-bottom-img" >
-</div>
+        <h2 class="test-drive-bottom-title">Нет нужной модели, которую хотите протестировать?</h2>
+        <p class="test-drive-bottom-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
+        <div class="test-drive-bottom-wrapper">
+          <form action="" class="test-drive-bottom-form"></form>
+          <button class="test-drive-bottom-button">Оставить заявку на тест-драйв</button>
+        </div>
+        <div class="test-drive-bottom-checkbox">
+          <input type="checkbox">
+          <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных
+            и <a href="" class="policy">политикой конфиденциальности</a> </p>
+        </div>
+        <img src="img/portrait.png" alt="portrait" class="test-drive-bottom-img">
+      </div>
     </section>
   </div>
-<section class="footer-email">
-  <div class="container">
-    <div class="footer-email-wrapper">
-      <p class="footer-email-wrapper-text">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</p>
-      <div class="footer-email-wrapper-form">
-        <form action="" class="footer-email-wrapper-form-input"></form>
-        <button class="footer-email-wrapper-form-button">Подписаться</button>
+  <section class="footer-email">
+    <div class="container">
+      <div class="footer-email-wrapper">
+        <p class="footer-email-wrapper-text">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты
+        </p>
+        <div class="footer-email-wrapper-form">
+          <form action="" class="footer-email-wrapper-form-input"></form>
+          <button class="footer-email-wrapper-form-button">Подписаться</button>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<div class="container">
-  <footer>
-    <section class="footer-upper">
-    
+  </section>
+  <div class="bg-footer">
+  <div class="container">
+      <section class="footer-upper">
+
         <div class="footer-upper-wrapper">
           <p class="footer-upper-title">Каталог товаров</p>
           <ul class="footer-upper-list">
@@ -559,7 +561,7 @@
             <li class="footer-upper-item"><a href="#" class="footer-upper-link">Электровелосипеды</a></li>
           </ul>
         </div>
-     
+
         <div class="footer-upper-wrapper">
           <p class="footer-upper-title">Покупателям</p>
           <ul class="footer-upper-list second">
@@ -573,28 +575,157 @@
             <li class="footer-upper-item"><a href="#" class="footer-upper-link">Акции</a></li>
           </ul>
         </div>
-     
+
         <div class="footer-upper-wrapper contacts">
           <p class="footer-upper-title">Контакты</p>
-          <ul class="footer-upper-list">
-            <li class="footer-upper-item"><p class="call">Call-центр</p></li>
-            <li class="footer-upper-item"><a href="tel:+78005055461" class="footer-upper-tel">+7 (800) 505-54-61</a></li>
-            <li class="footer-upper-item"><p class="time">Пн-Вс 10:00 - 20:00</p></li>
-            <li class="footer-upper-item"><p class="call">Сервисный центр</p></li>
-            <li class="footer-upper-item"><a href="tel:+74993507692" class="footer-upper-tel">+7 (499) 350-76-92</a></li>
-            <li class="footer-upper-item"><p class="time">Пн-Вс 10:00 - 20:00</p></li>
+          <ul class="footer-upper-list contacts-columns">
+            <li class="footer-upper-item contacts-phone">
+              <p class="call">Call-центр</p>
+            </li>
+            <li class="footer-upper-item contacts-phone"><a href="tel:+78005055461" class="footer-upper-tel">+7 (800)
+                505-54-61</a></li>
+            <li class="footer-upper-item">
+              <p class="time">Пн-Вс 10:00 - 20:00</p>
+            </li>
+            <li class="footer-upper-item">
+              <p class="call">Сервисный центр</p>
+            </li>
+            <li class="footer-upper-item contacts-phone"><a href="tel:+74993507692" class="footer-upper-tel">+7 (499)
+                350-76-92</a></li>
+            <li class="footer-upper-item">
+              <p class="time">Пн-Вс 10:00 - 20:00</p>
+            </li>
           </ul>
         </div>
-        <div class="footer-upper-wrapper">
-          
+        <div class="order-phone">
+          <a href="" class="order-phone">Заказать звонок</a>
         </div>
+  
+  </section>
+  <section class="footer-middle">
+    <div class="footer-middle-wrapper-first">
+      <div class="footer-middle-wrapper-first-logo">
+        <a href="" class="main-logo">Kugoo</a>
       </div>
-    </section>
-    <section class="footer-middle"></section>
-    <section class="footer-lower"></section>
-  </footer>
+      <div class="footer-middle-wrapper-first-downloads">
+        <a href="#" class="footer-middle-wrapper-first-downloads-links">
+          <img src="img/GPlay.png" alt="Google Play" class="google-play">
+        </a>
+        <a href="#" class="footer-middle-wrapper-first-downloads-links">
+          <img src="img/AppStore.png" alt="App Store" class="appstore">
+        </a>
+      </div>
+    </div>
+    <div class="footer-middle-wrapper-second">
+      <a href="#" class="footer-middle-wrapper-second-link">
+        <div class="footer-middle-wrapper-second-social">
+        <div class="footer-middle-wrapper-second-social-item">
+          <svg width="20" height="20" class="footer-middle-wrapper-second-social-svg">
+            <use href="img/sprite.svg#vk"></use>
+          </svg>
+        </div>
+        <div class="footer-middle-wrapper-second-social-item">
+          <h2 class="footer-middle-wrapper-second-social-title">Вконтакте</h2>
+          <p class="members vk">3300</p>
+        </div>
+        </div>
+      </a>
+      <a href="#" class="footer-middle-wrapper-second-link">
+        <div class="footer-middle-wrapper-second-social">
+        <div class="footer-middle-wrapper-second-social-item">
+          <svg width="20" height="20" class="footer-middle-wrapper-second-social-svg">
+            <use href="img/sprite.svg#YT"></use>
+          </svg>
+        </div>
+        <div class="footer-middle-wrapper-second-social-item">
+          <h2 class="footer-middle-wrapper-second-social-title">YouTube</h2>
+          <p class="members YT">3603</p>
+        </div>
+        </div>
+      </a>
+      <a href="#" class="footer-middle-wrapper-second-link">
+        <div class="footer-middle-wrapper-second-social">
+        <div class="footer-middle-wrapper-second-social-item">
+          <svg width="20" height="20" class="footer-middle-wrapper-second-social-svg">
+            <use href="img/sprite.svg#TG"></use>
+          </svg>
+        </div>
+        <div class="footer-middle-wrapper-second-social-item">
+          <h2 class="footer-middle-wrapper-second-social-title">Telegram</h2>
+          <p class="members TG">432</p>
+        </div>
+        </div>
+      </a>
+    </div>
+  </section>
+  <section class="footer-lower">
+<div class="left-links">
+  <a href="#" class="requisites">Реквизиты</a>
+  <a href="#" class="link-policy">Политика конфиденциальности</a>
+</div>
+<div class="right-info">
+<div class="payments">
+  <div class="payments-img">
+  <svg width="35" height="24" class="payments-svg">
+    <use href="img/sprite.svg#GPay"></use>
+  </svg>
+  </div>
+  <div class="payments-img">
+  <svg width="36" height="24" class="payments-svg">
+    <use href="img/sprite.svg#APay"></use>
+  </svg>
+  </div>
+  <div class="payments-img">
+  <svg width="35" height="24" class="payments-svg">
+    <use href="img/sprite.svg#VISA"></use>
+  </svg>
+  </div>
+  <div class="payments-img">
+  <svg width="35" height="24" class="payments-svg">
+    <use href="img/sprite.svg#MC"></use>
+  </svg>
+  </div>
+  <div class="payments-img">
+  <svg width="35" height="24" class="payments-svg">
+    <use href="img/sprite.svg#Maestro"></use>
+  </svg>
+  </div>
+  <div class="payments-img">
+  <svg width="35" height="24" class="payments-svg">
+    <use href="img/sprite.svg#WB"></use>
+  </svg>
+  </div>
+  <div class="payments-img">
+  <svg width="35" height="24" class="payments-svg">
+    <use href="img/sprite.svg#Qiwi"></use>
+  </svg>
+  </div>
+</div>
+<div class="online-chat">
+  <p class="online-chat-title">Online чат:</p>
+</div>
+<a href="" class="online-chat-link">
+  <svg width="18" height="18" class="payments-svg">
+    <use href="img/sprite.svg#Viber"></use>
+  </svg>
+</a>
+<a href="" class="online-chat-link">
+  <svg width="18" height="18" class="payments-svg">
+    <use href="img/sprite.svg#WhatsApp"></use>
+  </svg>
+</a>
+<a href="" class="online-chat-link">
+  <svg width="18" height="18" class="payments-svg">
+    <use href="img/sprite.svg#Telegram"></use>
+  </svg>
+</a>
+
+
 </div>
 
+  </section>
+  </div>
+  </div>
 </body>
 
 
