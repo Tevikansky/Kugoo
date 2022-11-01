@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -25,26 +27,26 @@
       <div class="header-nav-wrapper">
         <ul class="header-nav-left">
           <li class="header-nav-left-item">
-            <a href="" class="header-nav-left-link">Сервис</a>
+            <a href="#" class="header-nav-left-link">Сервис</a>
           </li>
           <li class="header-nav-left-item">
-            <a href="" class="header-nav-left-link">Сотрудничество</a>
+            <a href="#" class="header-nav-left-link">Сотрудничество</a>
           </li>
           <li class="header-nav-left-item">
-            <a href="" class="header-nav-left-link">Заказать звонок</a>
+            <a href="#" class="header-nav-left-link">Заказать звонок</a>
           </li>
           <li class="header-nav-left-social">
-            <a href="" class="header-nav-left-social-link">
+            <a href="#" class="header-nav-left-social-link">
               <svg width="12" height="13" class="header-nav-left-link-social-svg">
                 <use href="img/sprite.svg#Viber"></use>
               </svg>
             </a>
-            <a href="" class="header-nav-left-social-link">
+            <a href="#" class="header-nav-left-social-link">
               <svg width="13" height="13" class="header-nav-left-link-social-svg">
                 <use href="img/sprite.svg#WhatsApp"></use>
               </svg>
             </a>
-            <a href="" class="header-nav-left-social-link">
+            <a href="#" class="header-nav-left-social-link">
               <svg width="12" height="13" class="header-nav-left-link-social-svg">
                 <use href="img/sprite.svg#Telegram"></use>
               </svg>
@@ -62,22 +64,22 @@
       <div class="header-main-wrapper">
         <div class="header-main-left">
           <div class="header-main-left-logo">
-            <a href="" class="main-logo">Kugoo</a>
+            <a href="#" class="main-logo">Kugoo</a>
           </div>
-          <div class="header-main-left-catalog">
-            <a href="" class="catalog-menu">
+          <a href="#" class="header-main-left-catalog">
+            <div class="catalog-menu">
               <div class="catalog-menu-burger">
                 <div class="catalog-menu-line"></div>
                 <div class="catalog-menu-line"></div>
                 <div class="catalog-menu-line"></div>
               </div>
-            </a>
-            <a href="" class="catalog">
-              Каталог</a>
-          </div>
+            </div>
+            <p class="catalog">
+              Каталог</p>
+          </a>
           <div class="header-main-left-search">
-            <form action="" class="form-search">
-              <input type="text" class="input-search" placeholder="Искать самокат KUGO">
+            <form action="#" class="form-search">
+              <input type="text" class="input-search" placeholder="Искать самокат KUGO" maxlength="100">
               <button type="submit" class="button-search">
                 <svg width="16" height="16" class="button-search-svg">
                   <use href="img/sprite.svg#search"></use>
@@ -190,7 +192,6 @@
         </li>
       </ul>
     </div>
-    </div>
   </section>
 
 
@@ -248,257 +249,257 @@
           <!-- Slides -->
           <div class="swiper-slide">
             <div class="swiper-slide-scooter">
-            <div class="swiper-slide-header">
-              <div class="swiper-slide-header-label">ХИТ
-              </div>
+              <div class="swiper-slide-header">
+                <div class="swiper-slide-header-label">ХИТ
+                </div>
 
-              <a href="#" class="swiper-slide-header-comparison">
-                <img src="img/balance.svg" alt="balance">
-              </a>
-            </div>
-            <div class="swiper-slide-footer">
-              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
-              <div class="swiper-slide-footer-features">
-                <div class="swiper-slide-footer-features-item-first">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#accum"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-second">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#power"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-third">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#speedometer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-fourth">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#timer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
-                </div>
+                <a href="#" class="swiper-slide-header-comparison">
+                  <img src="img/balance.svg" alt="balance">
+                </a>
               </div>
-              <div class="swiper-slide-footer-cost">
-                <div class="swiper-slide-footer-cost-price">
-                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
-                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+              <div class="swiper-slide-footer">
+                <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+                <div class="swiper-slide-footer-features">
+                  <div class="swiper-slide-footer-features-item-first">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#accum"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-second">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-third">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#speedometer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-fourth">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                  </div>
                 </div>
-                <div class="swiper-slide-footer-cost-buttons">
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#cart2"></use>
-                      </svg>
-                    </div>
-                  </a>
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#favorite"></use>
-                      </svg>
-                    </div>
-                  </a>
+                <div class="swiper-slide-footer-cost">
+                  <div class="swiper-slide-footer-cost-price">
+                    <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                    <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                  </div>
+                  <div class="swiper-slide-footer-cost-buttons">
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#cart2"></use>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#favorite"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
                 </div>
+                <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
               </div>
-              <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
-            </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-scooter">
-            <div class="swiper-slide-header">
-              <div class="swiper-slide-header-new">Новинка
+              <div class="swiper-slide-header">
+                <div class="swiper-slide-header-new">Новинка
+                </div>
+                <a href="#" class="swiper-slide-header-comparison">
+                  <img src="img/balance.svg" alt="balance">
+                </a>
               </div>
-              <a href="#" class="swiper-slide-header-comparison">
-                <img src="img/balance.svg" alt="balance">
-              </a>
-            </div>
-            <div class="swiper-slide-footer">
-              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
-              <div class="swiper-slide-footer-features">
-                <div class="swiper-slide-footer-features-item-first">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#accum"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+              <div class="swiper-slide-footer">
+                <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+                <div class="swiper-slide-footer-features">
+                  <div class="swiper-slide-footer-features-item-first">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#accum"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-second">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-third">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#speedometer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-fourth">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                  </div>
                 </div>
-                <div class="swiper-slide-footer-features-item-second">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#power"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                <div class="swiper-slide-footer-cost">
+                  <div class="swiper-slide-footer-cost-price">
+                    <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                    <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                  </div>
+                  <div class="swiper-slide-footer-cost-buttons">
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#cart2"></use>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#favorite"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
                 </div>
-                <div class="swiper-slide-footer-features-item-third">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#speedometer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-fourth">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#timer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
-                </div>
+                <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
               </div>
-              <div class="swiper-slide-footer-cost">
-                <div class="swiper-slide-footer-cost-price">
-                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
-                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
-                </div>
-                <div class="swiper-slide-footer-cost-buttons">
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#cart2"></use>
-                      </svg>
-                    </div>
-                  </a>
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#favorite"></use>
-                      </svg>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
-            </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-slide-scooter">
-            <div class="swiper-slide-header">
-              <div class="swiper-slide-header-label">ХИТ
-              </div>
-
-              <a href="#" class="swiper-slide-header-comparison">
-                <img src="img/balance.svg" alt="balance">
-              </a>
-            </div>
-            <div class="swiper-slide-footer">
-              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
-              <div class="swiper-slide-footer-features">
-                <div class="swiper-slide-footer-features-item-first">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#accum"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-second">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#power"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-third">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#speedometer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-fourth">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#timer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
-                </div>
-              </div>
-              <div class="swiper-slide-footer-cost">
-                <div class="swiper-slide-footer-cost-price">
-                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
-                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
-                </div>
-                <div class="swiper-slide-footer-cost-buttons">
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#cart2"></use>
-                      </svg>
-                    </div>
-                  </a>
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#favorite"></use>
-                      </svg>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
-            </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-scooter">
-            <div class="swiper-slide-header">
-              <div class="swiper-slide-header-new">Новинка
-              </div>
+              <div class="swiper-slide-header">
+                <div class="swiper-slide-header-label">ХИТ
+                </div>
 
-              <a href="#" class="swiper-slide-header-comparison">
-                <img src="img/balance.svg" alt="balance">
-              </a>
-            </div>
-            <div class="swiper-slide-footer">
-              <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
-              <div class="swiper-slide-footer-features">
-                <div class="swiper-slide-footer-features-item-first">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#accum"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-second">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#power"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-third">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#speedometer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
-                </div>
-                <div class="swiper-slide-footer-features-item-fourth">
-                  <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
-                    <use href="img/sprite.svg#timer"></use>
-                  </svg>
-                  <div class="swiper-slide-footer-features-item-title">5 часов</div>
-                </div>
+                <a href="#" class="swiper-slide-header-comparison">
+                  <img src="img/balance.svg" alt="balance">
+                </a>
               </div>
-              <div class="swiper-slide-footer-cost">
-                <div class="swiper-slide-footer-cost-price">
-                  <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
-                  <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+              <div class="swiper-slide-footer">
+                <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+                <div class="swiper-slide-footer-features">
+                  <div class="swiper-slide-footer-features-item-first">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#accum"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-second">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-third">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#speedometer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-fourth">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                  </div>
                 </div>
-                <div class="swiper-slide-footer-cost-buttons">
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#cart2"></use>
-                      </svg>
-                    </div>
-                  </a>
-                  <a href="#" class="swiper-slide-footer-cost-item">
-                    <div class="swiper-slide-footer-cost-item-button">
-                      <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
-                        <use href="img/sprite.svg#favorite"></use>
-                      </svg>
-                    </div>
-                  </a>
+                <div class="swiper-slide-footer-cost">
+                  <div class="swiper-slide-footer-cost-price">
+                    <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                    <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                  </div>
+                  <div class="swiper-slide-footer-cost-buttons">
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#cart2"></use>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#favorite"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
                 </div>
+                <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
               </div>
-              <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-scooter">
+              <div class="swiper-slide-header">
+                <div class="swiper-slide-header-new">Новинка
+                </div>
+
+                <a href="#" class="swiper-slide-header-comparison">
+                  <img src="img/balance.svg" alt="balance">
+                </a>
+              </div>
+              <div class="swiper-slide-footer">
+                <h2 class="swiper-slide-footer-title"> Kugoo Kirin M4</h2>
+                <div class="swiper-slide-footer-features">
+                  <div class="swiper-slide-footer-features-item-first">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#accum"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">2000 mAh</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-second">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">1,2 л.с.</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-third">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#speedometer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">60 км/ч</div>
+                  </div>
+                  <div class="swiper-slide-footer-features-item-fourth">
+                    <svg width="18" height="18" class="swiper-slide-footer-features-item-svg">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    <div class="swiper-slide-footer-features-item-title">5 часов</div>
+                  </div>
+                </div>
+                <div class="swiper-slide-footer-cost">
+                  <div class="swiper-slide-footer-cost-price">
+                    <p class="swiper-slide-footer-cost-price-old">39 900 ₽</p>
+                    <p class="swiper-slide-footer-cost-price-current">29 900 ₽</p>
+                  </div>
+                  <div class="swiper-slide-footer-cost-buttons">
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#cart2"></use>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" class="swiper-slide-footer-cost-item">
+                      <div class="swiper-slide-footer-cost-item-button">
+                        <svg width="20" height="20" class="swiper-slide-footer-cost-item-svg">
+                          <use href="img/sprite.svg#favorite"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <button class="record-test" data-toggle="modal">Записаться на тест-драйв</button>
+              </div>
             </div>
           </div>
         </div>
@@ -522,16 +523,17 @@
         <p class="test-drive-bottom-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
         <div class="test-drive-bottom-wrapper">
 
-          <form action="" class="test-drive-bottom-form">
+          <form action="./handler.php" method="POST" class="test-drive-bottom-form">
             <div class="test-drive-bottom-form-wrapper">
-              <input type="text" class="input-test-drive-bottom" placeholder="+7 (___) __ - __ - __">
+              <input id="user-phone" type="tel" name="userphone" class="input-test-drive-bottom phone-mask"
+                placeholder="+7 (___) __ - __ - __" maxlength="18" required>
               <button type="submit" class="test-drive-bottom-button">Оставить заявку на тест-драйв</button>
             </div>
             <div class="test-drive-bottom-checkbox">
-              <input type="checkbox">
+              <input type="checkbox" name="checkbox">
               <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
                 данных
-                и <a href="" class="policy">политикой конфиденциальности</a> </p>
+                и <a href="#" class="policy">политикой конфиденциальности</a> </p>
             </div>
           </form>
         </div>
@@ -542,12 +544,13 @@
   <section class="footer-email">
     <div class="container">
       <div class="footer-email-wrapper">
-        <p class="footer-email-wrapper-text">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты
-        </p>
+        <div class="footer-email-wrapper-text">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты
+        </div>
         <div class="footer-email-wrapper-form">
-          <form action="" class="footer-email-wrapper-form">
-            <input type="text" class="footer-email-wrapper-form-input" placeholder="Введите Ваш email">
-            <button  type="submit" class="footer-email-wrapper-form-button">Подписаться</button>
+          <form action="./handler.php" method="POST" class="footer-email-wrapper-form">
+            <input id="user-mail" type="email" name="usermail" class="footer-email-wrapper-form-input"
+              placeholder="Введите Ваш email" maxlength="100" required>
+            <button type="submit" class="footer-email-wrapper-form-button">Подписаться</button>
           </form>
 
         </div>
@@ -605,14 +608,14 @@
           </ul>
         </div>
         <div class="order-phone">
-          <a href="" class="order-phone">Заказать звонок</a>
+          <a href="#" class="order-phone link" data-toggle="modal">Заказать звонок</a>
         </div>
 
       </div>
       <div class="footer-middle">
         <div class="footer-middle-wrapper-first">
           <div class="footer-middle-wrapper-first-logo">
-            <a href="" class="main-logo">Kugoo</a>
+            <a href="#" class="main-logo">Kugoo</a>
           </div>
           <div class="footer-middle-wrapper-first-downloads">
             <a href="#" class="footer-middle-wrapper-first-downloads-links">
@@ -711,17 +714,17 @@
           <div class="online-chat">
             <p class="online-chat-title">Online чат:</p>
           </div>
-          <a href="" class="online-chat-link">
+          <a href="#" class="online-chat-link">
             <svg width="18" height="18" class="payments-svg">
               <use href="img/sprite.svg#Viber"></use>
             </svg>
           </a>
-          <a href="" class="online-chat-link">
+          <a href="#" class="online-chat-link">
             <svg width="18" height="18" class="payments-svg">
               <use href="img/sprite.svg#WhatsApp"></use>
             </svg>
           </a>
-          <a href="" class="online-chat-link">
+          <a href="#" class="online-chat-link">
             <svg width="18" height="18" class="payments-svg">
               <use href="img/sprite.svg#Telegram"></use>
             </svg>
@@ -737,28 +740,30 @@
   <div class="modal">
     <div class="modal-dialog">
       <div class="modal-dialog-wrapper">
-      <h2 class="modal-dialog-title">Запишитесь <br> на тест-драйв электросамоката</h2>
-      <h3 class="modal-dialog-extra-title">и подберите модель для себя</h3>
-      <p class="modal-dialog-text">Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.</p>
-      <p class="modal-dialog-extra-text">Как с вами удобнее связаться?</p>
-      <form action="" class="test-drive-bottom-form modal-dialog-form">
-            <div class="test-drive-bottom-form-wrapper modal-dialog-form-wrapper">
-              <input type="tel" id="modal-user-phone" class="input-test-drive-bottom modal-dialog-form-input" placeholder="+7 (___) __ - __ - __">
-              <button type="submit"class="test-drive-bottom-button modal-dialog-form-button">Оформить предзаказ</button>
-            </div>
-            <div class="test-drive-bottom-checkbox modal-dialog-checkbox">
-              <input type="checkbox" class="modal-checkbox">
-              <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
-                данных
-                и <a href="" class="policy">политикой конфиденциальности</a> </p>
-            </div>
-          </form>
+        <h2 class="modal-dialog-title">Запишитесь <br> на тест-драйв электросамоката</h2>
+        <h3 class="modal-dialog-extra-title">и подберите модель для себя</h3>
+        <p class="modal-dialog-text">Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.</p>
+        <p class="modal-dialog-extra-text">Как с вами удобнее связаться?</p>
+        <form action="#" method="POST" class="test-drive-bottom-form modal-dialog-form">
+          <div class="test-drive-bottom-form-wrapper modal-dialog-form-wrapper">
+            <input id="user-phone" type="tel" name="userphone"
+              class="input-test-drive-bottom modal-dialog-form-input phone-mask" placeholder="+7 (___) __ - __ - __"
+              required maxlength="18">
+            <button type="submit" class="test-drive-bottom-button modal-dialog-form-button">Оформить предзаказ</button>
           </div>
-          <img src="img/woman-on-scooter2.png" alt="" class="modal-dialog-img">
-      <a href="" class="modal-close" data-toggle="modal">
-      <svg width="29" height="29" class="modal-close-svg">
-                <use href="img/sprite.svg#close"></use>
-      </svg>
+          <div class="test-drive-bottom-checkbox modal-dialog-checkbox">
+            <input type="checkbox" class="modal-checkbox" name="checkbox">
+            <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
+              данных
+              и <a href="#" class="policy">политикой конфиденциальности</a> </p>
+          </div>
+        </form>
+      </div>
+      <img src="img/woman-on-scooter2.png" alt="" class="modal-dialog-img">
+      <a href="#" class="modal-close" data-toggle="modal">
+        <svg width="29" height="29" class="modal-close-svg">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
       </a>
     </div>
   </div>

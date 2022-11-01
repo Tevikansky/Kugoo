@@ -100,7 +100,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
+
 .catalog {
   font-family: "Jost";
   font-style: normal;
@@ -175,6 +177,7 @@ html {
   top: 0;
   right: 0;
 }
+
 .header-main-right {
   display: flex;
   justify-content: center;
@@ -213,6 +216,7 @@ html {
   padding-left: 136px;
   padding-top: 45px;
   background-image: url(/img/young-woman-bg.jpg);
+  background-repeat: no-repeat;
   padding-bottom: 56px;
 }
 .test-drive-wrapper-first {
@@ -392,6 +396,7 @@ button {
   height: 231px;
   width: 100%;
   background-image: url(/img/Scooter-bg.png);
+  background-repeat: no-repeat;
   border-radius: 10px 10px 0px 0px;
   display: flex;
 }
@@ -673,6 +678,7 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   max-width: 425px;
+  padding: 18px 0;
 }
 .footer-email-wrapper-form {
   display: flex;
@@ -986,7 +992,56 @@ button {
   top: 16px;
   right: 15px;
 }
-
+.is-invalid {
+  border: 1px solid #ee685f;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 15.3rem;
+  display: inline-block;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}
+.test-drive-bottom-form-wrapper.modal-dialog-form-wrapper
+  .just-validate-error-label {
+  top: 22rem;
+}
+.test-drive-bottom-checkbox .just-validate-error-label {
+  left: 17rem;
+}
+.test-drive-bottom-checkbox.modal-dialog-checkbox .just-validate-error-label {
+  left: 10rem;
+  top: 22rem;
+}
+.record:hover,
+.footer-email-wrapper-form-button:hover,
+.swiper-slide-footer-cost-item-button:hover {
+  background-color: rgb(214, 214, 214);
+  border-color: rgb(214, 214, 214);
+  transition: all 0.5s;
+}
+.header-main-left-catalog:hover,
+.button-search:hover,
+.record-test:hover,
+.test-drive-bottom-button:hover {
+  background: #5659b1;
+  transition: all 0.5s;
+}
+.header-nav-left-item:hover,
+.hedear-nav-phone:hover,
+.order-phone.link:hover,
+.footer-upper-tel:hover,
+.footer-upper-link:hover,
+.header-main-right-item:hover {
+  border-bottom: 2px solid #6f73ee;
+}
+.link-policy:hover,
+.requisites:hover {
+  text-decoration: underline;
+}
 @media (max-width: 1440px) {
   .container {
     max-width: 69.3125rem;
@@ -1045,5 +1100,40 @@ button {
   }
   .footer-middle {
     display: block;
+  }
+  @media (max-width: 992px) {
+    .record:hover,
+    .footer-email-wrapper-form-button:hover,
+    .swiper-slide-footer-cost-item-button:hover {
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(255, 255, 255);
+    }
+    .header-main-left-catalog:hover,
+    .button-search:hover,
+    .record-test:hover,
+    .test-drive-bottom-button:hover {
+      background: #6f73ee;
+    }
+    .header-nav-left-item:hover,
+    .hedear-nav-phone:hover,
+    .order-phone.link:hover,
+    .footer-upper-tel:hover,
+    .footer-upper-link:hover,
+    .header-main-right-item:hover {
+      border-bottom: none;
+    }
+    .link-policy:hover,
+    .requisites:hover {
+      text-decoration: none;
+    }
+  }
+  @media (max-width: 810px) {
+    .modal-dialog-img {
+      display: none;
+    }
+    .modal-dialog {
+      max-width: 22.375rem;
+      height: 600px;
+    }
   }
 }
