@@ -157,38 +157,35 @@ document.addEventListener("input", (e) => {
 
 });
 
-const formEmail = document.querySelector(".footer-email-wrapper-form");
-formEmail.forEach((form) => {
-  const validation = new JustValidate(form, {
-    errorFieldCssClass: "is-invalid",
-  });
-  validation
-    .addField('[name=usermail]', [{
-        rule: 'required',
-        errorMessage: 'Field is required',
-      },
-      {
-        rule: 'email',
-        errorMessage: 'Неверный email',
-      },
-    ])
-    .onSuccess((event) => {
-      const thisForm = event.target;
-      const formData = new FormData(thisForm);
-      const ajaxSend = (formData) => {
-        fetch(thisForm.getAttribute("action"), {
-          method: thisForm.getAttribute("method"),
-          body: formData,
-        }).then((response) => {
-          if (response.ok) {
-            thisForm.reset();
-            alert("Спасибо за подписку на наши новости!)");
-          } else {
-            alert("Ошибка. Текст ошибки: "
-              .response.statusText);
-          }
-        });
-      };
-      ajaxSend(formData);
-    });
+const validation = new JustValidate(".footer-email-wrapper-form", {
+  errorFieldCssClass: "is-invalid",
 });
+validation
+  .addField('#user-mail', [{
+      rule: 'required',
+      errorMessage: 'Введите email',
+    },
+    {
+      rule: 'email',
+      errorMessage: 'Неверный email',
+    },
+  ])
+  .onSuccess((event) => {
+    const thisForm = event.target;
+    const formData = new FormData(thisForm);
+    const ajaxSend = (formData) => {
+      fetch(thisForm.getAttribute("action"), {
+        method: thisForm.getAttribute("method"),
+        body: formData,
+      }).then((response) => {
+        if (response.ok) {
+          thisForm.reset();
+          alert("Спасибо за подписку на наши новости!)");
+        } else {
+          alert("Ошибка. Текст ошибки: "
+            .response.statusText);
+        }
+      });
+    };
+    ajaxSend(formData);
+  });

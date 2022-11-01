@@ -922,7 +922,7 @@ button {
 .modal-dialog-wrapper {
   padding-left: 20px;
   margin-top: -6px;
-  padding-right: 49px;
+  padding-right: 70px;
 }
 .modal-dialog-title {
   font-family: "Jost";
@@ -983,14 +983,14 @@ button {
   margin-top: -17px;
 }
 .modal-dialog-img {
-  padding-right: 41px;
+  padding-right: 11px;
   padding-top: 1px;
   height: 497px;
 }
 .modal-close {
   position: absolute;
-  top: 16px;
-  right: 15px;
+  top: 14px;
+  right: 0px;
 }
 .is-invalid {
   border: 1px solid #ee685f;
@@ -1015,6 +1015,9 @@ button {
 .test-drive-bottom-checkbox.modal-dialog-checkbox .just-validate-error-label {
   left: 10rem;
   top: 22rem;
+}
+.footer-email-wrapper-form .just-validate-error-label {
+  top: -0.1rem;
 }
 .record:hover,
 .footer-email-wrapper-form-button:hover,
@@ -1041,6 +1044,25 @@ button {
 .link-policy:hover,
 .requisites:hover {
   text-decoration: underline;
+}
+.input-checkbox {
+  display: none;
+}
+.label {
+  display: block;
+  height: 15px;
+  width: 15px;
+  background: #ffffff;
+  cursor: pointer;
+}
+.test-drive-bottom-checkbox.modal-dialog-checkbox .label {
+  background: #f4f7fb;
+  width: 43px;
+}
+.input-checkbox:checked ~ .label {
+  background-image: url(../check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 @media (max-width: 1440px) {
   .container {

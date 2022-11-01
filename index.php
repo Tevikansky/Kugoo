@@ -21,6 +21,9 @@
 </head>
 
 
+
+
+
 <body>
   <div class="header">
     <div class="container">
@@ -160,7 +163,11 @@
 
 
   <section class="first-advantages container-second">
-    <img src="img/Scooters.png" alt="Scooters" class="advantages-img">
+    <picture class="advantages-img">
+  <source type="image/webp" srcset="img/Scooters.webp">
+  <source type="image/jpeg" srcset="img/Scooters.png">
+  <img src="img/Scooters.png" class="advantages-img">
+</picture>
     <div class="advanteges-wrapper">
       <h2 class="advanteges-wrapper-main-tittle">Определите максимально подходящую вам модель <br> не теоретически, а
         на практике</h2>
@@ -196,7 +203,12 @@
 
 
   <section class="second-advantages container-second">
-    <img src="img/woman-on-scooter.png" alt="woman-on-scooter" class="woman-on-scooter-img">
+  <picture class="woman-on-scooter-img">
+  <source type="image/webp" srcset="img/woman-on-scooter.webp">
+  <source type="image/jpeg" srcset="img/woman-on-scooter.png">
+  <img src="img/woman-on-scooter.png" class="woman-on-scooter-img">
+</picture>
+  
     <div class="second-advanteges-wrapper">
       <h2 class="advanteges-wrapper-main-tittle">Научим правильной<br>и безопасной езде в городе вас или вашего
         ребенка</h2>
@@ -525,12 +537,13 @@
 
           <form action="./handler.php" method="POST" class="test-drive-bottom-form">
             <div class="test-drive-bottom-form-wrapper">
-              <input id="user-phone" type="tel" name="userphone" class="input-test-drive-bottom phone-mask"
+              <input type="tel" name="userphone" class="input-test-drive-bottom phone-mask"
                 placeholder="+7 (___) __ - __ - __" maxlength="18" required>
               <button type="submit" class="test-drive-bottom-button">Оставить заявку на тест-драйв</button>
             </div>
             <div class="test-drive-bottom-checkbox">
-              <input type="checkbox" name="checkbox">
+              <input type="checkbox" id="input" class="input-checkbox" name="checkbox">
+              <label for="input" class="label"></label>
               <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
                 данных
                 и <a href="#" class="policy">политикой конфиденциальности</a> </p>
@@ -541,22 +554,22 @@
     </div>
   </section>
 
-  <section class="footer-email">
+  <div class="footer-email">
     <div class="container">
       <div class="footer-email-wrapper">
         <div class="footer-email-wrapper-text">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты
         </div>
         <div class="footer-email-wrapper-form">
           <form action="./handler.php" method="POST" class="footer-email-wrapper-form">
-            <input id="user-mail" type="email" name="usermail" class="footer-email-wrapper-form-input"
-              placeholder="Введите Ваш email" maxlength="100" required>
+            <input id="user-mail" type="email" class="footer-email-wrapper-form-input"
+              placeholder="Введите Ваш email">
             <button type="submit" class="footer-email-wrapper-form-button">Подписаться</button>
           </form>
 
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <div class="bg-footer">
     <div class="container">
@@ -619,10 +632,20 @@
           </div>
           <div class="footer-middle-wrapper-first-downloads">
             <a href="#" class="footer-middle-wrapper-first-downloads-links">
-              <img src="img/GPlay.png" alt="Google Play" class="google-play">
+            <picture class="google-play">
+  <source type="image/webp" srcset="img/GPlay.webp">
+  <source type="image/jpeg" srcset="img/GPlay.png">
+  <img src="img/GPlay.png" class="google-play">
+</picture>
+              
             </a>
             <a href="#" class="footer-middle-wrapper-first-downloads-links">
-              <img src="img/AppStore.png" alt="App Store" class="appstore">
+            <picture class="appstore">
+  <source type="image/webp" srcset="img/AppStore.webp">
+  <source type="image/jpeg" srcset="img/AppStore.png">
+  <img src="img/AppStore.png" class="appstore">
+</picture>
+              
             </a>
           </div>
         </div>
@@ -746,20 +769,25 @@
         <p class="modal-dialog-extra-text">Как с вами удобнее связаться?</p>
         <form action="#" method="POST" class="test-drive-bottom-form modal-dialog-form">
           <div class="test-drive-bottom-form-wrapper modal-dialog-form-wrapper">
-            <input id="user-phone" type="tel" name="userphone"
+            <input type="tel" name="userphone"
               class="input-test-drive-bottom modal-dialog-form-input phone-mask" placeholder="+7 (___) __ - __ - __"
               required maxlength="18">
             <button type="submit" class="test-drive-bottom-button modal-dialog-form-button">Оформить предзаказ</button>
           </div>
           <div class="test-drive-bottom-checkbox modal-dialog-checkbox">
-            <input type="checkbox" class="modal-checkbox" name="checkbox">
+            <input type="checkbox" id="modal-input" class="input-checkbox modal-checkbox" name="checkbox">
+            <label for="modal-input" class="label"></label>
             <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
               данных
               и <a href="#" class="policy">политикой конфиденциальности</a> </p>
           </div>
         </form>
       </div>
-      <img src="img/woman-on-scooter2.png" alt="" class="modal-dialog-img">
+      <picture class="modal-dialog-img">
+  <source type="image/webp" srcset="img/woman-on-scooter2.webp">
+  <source type="image/jpeg" srcset="img/woman-on-scooter2.png">
+  <img src="img/woman-on-scooter2.png" class="modal-dialog-img">
+</picture>
       <a href="#" class="modal-close" data-toggle="modal">
         <svg width="29" height="29" class="modal-close-svg">
           <use href="img/sprite.svg#close"></use>
