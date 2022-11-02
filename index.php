@@ -166,7 +166,7 @@
     <picture class="advantages-img">
   <source type="image/webp" srcset="img/Scooters.webp">
   <source type="image/jpeg" srcset="img/Scooters.png">
-  <img src="img/Scooters.png" class="advantages-img">
+  <img src="img/Scooters.png" class="advantages-img" alt="Scooters">
 </picture>
     <div class="advanteges-wrapper">
       <h2 class="advanteges-wrapper-main-tittle">Определите максимально подходящую вам модель <br> не теоретически, а
@@ -206,7 +206,7 @@
   <picture class="woman-on-scooter-img">
   <source type="image/webp" srcset="img/woman-on-scooter.webp">
   <source type="image/jpeg" srcset="img/woman-on-scooter.png">
-  <img src="img/woman-on-scooter.png" class="woman-on-scooter-img">
+  <img src="img/woman-on-scooter.png" class="woman-on-scooter-img" alt="woman-on-scooter">
 </picture>
   
     <div class="second-advanteges-wrapper">
@@ -561,7 +561,7 @@
         </div>
         <div class="footer-email-wrapper-form">
           <form action="./handler.php" method="POST" class="footer-email-wrapper-form">
-            <input id="user-mail" type="email" class="footer-email-wrapper-form-input"
+            <input id="user-mail" type="email" class="footer-email-wrapper-form-input" name="usermail"
               placeholder="Введите Ваш email">
             <button type="submit" class="footer-email-wrapper-form-button">Подписаться</button>
           </form>
@@ -635,7 +635,7 @@
             <picture class="google-play">
   <source type="image/webp" srcset="img/GPlay.webp">
   <source type="image/jpeg" srcset="img/GPlay.png">
-  <img src="img/GPlay.png" class="google-play">
+  <img src="img/GPlay.png" class="google-play" alt="google-play">
 </picture>
               
             </a>
@@ -643,7 +643,7 @@
             <picture class="appstore">
   <source type="image/webp" srcset="img/AppStore.webp">
   <source type="image/jpeg" srcset="img/AppStore.png">
-  <img src="img/AppStore.png" class="appstore">
+  <img src="img/AppStore.png" class="appstore" alt="AppStore">
 </picture>
               
             </a>
@@ -786,7 +786,7 @@
       <picture class="modal-dialog-img">
   <source type="image/webp" srcset="img/woman-on-scooter2.webp">
   <source type="image/jpeg" srcset="img/woman-on-scooter2.png">
-  <img src="img/woman-on-scooter2.png" class="modal-dialog-img">
+  <img src="img/woman-on-scooter2.png" class="modal-dialog-img" alt="woman-on-scooter2">
 </picture>
       <a href="#" class="modal-close" data-toggle="modal">
         <svg width="29" height="29" class="modal-close-svg">

@@ -147,9 +147,6 @@ document.addEventListener("input", (e) => {
     }
     /* итог: номер в формате +7 (999) 123-45-67 */
     input.value = result;
-  } else if (e.target["name"]) {
-    e.target.value = e.target.value.replace(/[0-9]/g, "");
-    e.target.value = e.target.value.replace(/[.,%]/g, '')
   }
 
 
