@@ -9,9 +9,12 @@ const swiper = new Swiper('.swiper', {
   breakpoints: {
     // when window width is >= 300px
     320: {
+      slidesPerView: 1,
+    },
+    577: {
       slidesPerView: 2,
     },
-    824: {
+    1100: {
       slidesPerView: 3,
     },
     1400: {
@@ -70,7 +73,7 @@ formPhone.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            alert("Заявка отпрвлена! Ждите звонка от нашего.");
+            alert("Заявка отправлена! Ждите звонка от нашего менеджера.");
           } else {
             alert("Ошибка. Текст ошибки: "
               .response.statusText);

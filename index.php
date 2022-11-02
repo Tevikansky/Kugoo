@@ -537,7 +537,7 @@
 
           <form action="./handler.php" method="POST" class="test-drive-bottom-form">
             <div class="test-drive-bottom-form-wrapper">
-              <input type="tel" name="userphone" class="input-test-drive-bottom phone-mask"
+              <input id="user-phone" type="tel" name="userphone" class="input-test-drive-bottom phone-mask"
                 placeholder="+7 (___) __ - __ - __" maxlength="18" required>
               <button type="submit" class="test-drive-bottom-button">Оставить заявку на тест-драйв</button>
             </div>
@@ -767,9 +767,9 @@
         <h3 class="modal-dialog-extra-title">и подберите модель для себя</h3>
         <p class="modal-dialog-text">Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.</p>
         <p class="modal-dialog-extra-text">Как с вами удобнее связаться?</p>
-        <form action="#" method="POST" class="test-drive-bottom-form modal-dialog-form">
+        <form action="handler.php" method="POST" class="test-drive-bottom-form modal-dialog-form">
           <div class="test-drive-bottom-form-wrapper modal-dialog-form-wrapper">
-            <input type="tel" name="userphone"
+            <input id="modal-user-phone"type="tel" name="userphone"
               class="input-test-drive-bottom modal-dialog-form-input phone-mask" placeholder="+7 (___) __ - __ - __"
               required maxlength="18">
             <button type="submit" class="test-drive-bottom-button modal-dialog-form-button">Оформить предзаказ</button>
