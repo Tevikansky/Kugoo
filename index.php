@@ -64,6 +64,9 @@
   </div>
   <nav class="header-main">
     <div class="container">
+    <div class="header-main-left-logo-mobile">
+            <a href="#" class="main-logo">Kugoo</a>
+          </div>
       <div class="header-main-wrapper">
         <div class="header-main-left">
           <div class="header-main-left-logo">
@@ -769,7 +772,7 @@
         <p class="modal-dialog-extra-text">Как с вами удобнее связаться?</p>
         <form action="handler.php" method="POST" class="test-drive-bottom-form modal-dialog-form">
           <div class="test-drive-bottom-form-wrapper modal-dialog-form-wrapper">
-            <input id="modal-user-phone"type="tel" name="userphone"
+            <input id="modal-user-phone" type="tel" name="userphone"
               class="input-test-drive-bottom modal-dialog-form-input phone-mask" placeholder="+7 (___) __ - __ - __"
               required maxlength="18">
             <button type="submit" class="test-drive-bottom-button modal-dialog-form-button">Оформить предзаказ</button>

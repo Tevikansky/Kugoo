@@ -28,7 +28,7 @@ html {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
   padding: 0;
 }
 .header-nav-left-link {
@@ -75,6 +75,9 @@ html {
   display: flex;
   list-style: none;
   align-items: center;
+}
+.header-main-left-logo-mobile {
+  display: none;
 }
 .main-logo {
   font-family: "Jost";
@@ -245,7 +248,7 @@ html {
   line-height: 17px;
   color: #ffffff;
   opacity: 0.7;
-  padding-left: 11px;
+  padding-left: 0.6875rem;
 }
 .test-drive-title {
   font-family: "Jost";
@@ -359,7 +362,7 @@ button {
 }
 .second-advantages {
   display: flex;
-  margin-top: 127px;
+  margin-top: 7.9375rem;
 }
 .woman-on-scooter-img {
   position: absolute;
@@ -372,7 +375,7 @@ button {
   margin-right: 112px;
 }
 .available-models {
-  margin-top: 133px;
+  margin-top: 8.3125rem;
 }
 .available-models-title {
   font-family: "Jost";
@@ -908,10 +911,10 @@ button {
   background-color: #fff;
   border-radius: 5px;
   margin: auto;
-  max-width: 49.375rem;
+  max-width: 790px;
   max-height: calc(100% - 20px);
   overflow-y: auto;
-  padding: 3rem 1.125rem;
+  padding: 48px 18px;
   position: relative;
   display: flex;
   transform: translateY(-10%);
@@ -996,7 +999,7 @@ button {
 }
 .just-validate-error-label {
   position: absolute;
-  top: 15.3rem;
+  top: 244.8px;
   display: inline-block;
   font-family: "Jost";
   font-style: normal;
@@ -1006,17 +1009,17 @@ button {
 }
 .test-drive-bottom-form-wrapper.modal-dialog-form-wrapper
   .just-validate-error-label {
-  top: 22rem;
+  top: 352px;
 }
 .test-drive-bottom-checkbox .just-validate-error-label {
-  left: 17rem;
+  left: 272px;
 }
 .test-drive-bottom-checkbox.modal-dialog-checkbox .just-validate-error-label {
-  left: 10rem;
-  top: 22rem;
+  left: 160px;
+  top: 352px;
 }
 .footer-email-wrapper-form .just-validate-error-label {
-  top: -0.1rem;
+  top: -1.6px;
 }
 .record:hover,
 .footer-email-wrapper-form-button:hover,
@@ -1120,6 +1123,12 @@ button {
   .test-drive-bottom {
     background-position-x: -100px;
   }
+  .just-validate-error-label {
+    top: 156.8px;
+  }
+  .test-drive-bottom-checkbox .just-validate-error-label {
+    left: 160px;
+  }
   .container {
     max-width: 60rem;
   }
@@ -1147,10 +1156,19 @@ button {
   .main-logo {
     margin-right: 10px;
   }
+  .test-drive-wrapper-main {
+    width: 100%;
+  }
 }
 @media (max-width: 992px) {
   html {
     font-size: 13px;
+  }
+  .header {
+    display: none;
+  }
+  .record {
+    width: 100%;
   }
   .record:hover,
   .footer-email-wrapper-form-button:hover,
@@ -1181,6 +1199,10 @@ button {
   }
   .footer-email-wrapper-form {
     gap: 0.625rem;
+    width: 100%;
+  }
+  .footer-email-wrapper-form-input {
+    width: 100%;
   }
   .container {
     max-width: 45rem;
@@ -1203,10 +1225,11 @@ button {
     margin-right: 12px;
   }
   .header-main-right {
-    justify-content: flex-end;
     align-items: flex-end;
     gap: 15px;
-    padding-top: 14px;
+    position: absolute;
+    right: 10px;
+    top: -2px;
   }
   .shopping-cart-text {
     display: none;
@@ -1238,15 +1261,15 @@ button {
   .footer-middle {
     display: block;
   }
-  .footer-middle-wrapper-first {
-    justify-content: space-between;
-  }
   .footer-middle-wrapper-second {
     margin-top: 25px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
   }
   .footer-middle-wrapper-first {
-    justify-content: space-around;
+    display: block;
+  }
+  .footer-middle-wrapper-first-downloads {
+    margin-top: 25px;
   }
   .footer-lower {
     display: block;
@@ -1255,22 +1278,66 @@ button {
   .right-info {
     justify-content: space-around;
   }
+  .header-main-left-logo-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  .header-main-left-logo {
+    display: none;
+  }
+  .main-logo {
+    font-size: 35px;
+    margin: 0;
+  }
+  .header-main-left-search,
+  .form-search {
+    width: 100%;
+  }
+  .second-advantages {
+    margin-top: 4.9375rem;
+  }
+  .test-drive-bottom-form-wrapper {
+    display: block;
+    height: auto;
+  }
+  .input-test-drive-bottom {
+    width: 100%;
+    height: 54px;
+    margin-bottom: 10px;
+  }
+  .test-drive-bottom-button {
+    width: 100%;
+  }
+  .just-validate-error-label {
+    top: 206.8px;
+  }
+  .modal-dialog-form-wrapper {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 810px) {
   .modal-dialog-img {
     display: none;
   }
   .modal-dialog {
-    max-width: 22.375rem;
+    max-width: 41.375rem;
     height: 600px;
+    padding: 48px 18px;
   }
   .modal-dialog-wrapper {
     padding: 0;
   }
+  .test-drive-bottom-form-wrapper.modal-dialog-form-wrapper
+    .just-validate-error-label,
+  .test-drive-bottom-checkbox.modal-dialog-checkbox .just-validate-error-label {
+    top: 296px;
+  }
 }
 @media (max-width: 620px) {
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer-upper {
     justify-content: space-between;
@@ -1278,14 +1345,123 @@ button {
   .footer-upper-list.second {
     columns: auto;
   }
+  .test-drive-title,
+  .advanteges-wrapper-main-tittle,
+  .available-models-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .test-drive-text {
+    font-size: 17px;
+  }
+  .swiper-slide-scooter {
+    margin: auto;
+    margin-top: 49px;
+  }
+  .test-drive-bottom-form-wrapper.modal-dialog-form-wrapper
+    .just-validate-error-label,
+  .test-drive-bottom-checkbox.modal-dialog-checkbox .just-validate-error-label {
+    top: 352px;
+  }
 }
 @media (max-width: 576px) {
   html {
-    font-size: 11.5px;
+    font-size: 9.5px;
+  }
+  .woman-on-scooter-img,
+  .advantages-img {
+    max-height: 31.75rem;
   }
 }
-/* @media (max-width: 320px) {
+@media (max-width: 470px) {
   html {
     font-size: 8px;
   }
-} */
+  .test-drive-wrapper-main {
+    padding: 32px;
+  }
+  .test-drive-title {
+    font-size: 27px;
+  }
+  .footer-upper {
+    display: block;
+  }
+  .contacts {
+    margin: 0;
+  }
+  .header-nav-left-social {
+    display: none;
+  }
+  .footer-email-wrapper-form-button {
+    width: 35%;
+  }
+  .footer-middle {
+    padding: 0;
+  }
+  .footer-middle-wrapper-second {
+    display: block;
+  }
+  .footer-middle-wrapper-second-social {
+    width: 42%;
+    margin-bottom: 25px;
+  }
+  .payments {
+    display: none;
+  }
+  .left-links {
+    justify-content: space-around;
+    margin-bottom: 4px;
+  }
+  .test-drive-bottom-checkbox .just-validate-error-label {
+    left: 100px;
+  }
+  .just-validate-error-label {
+    top: 282.8px;
+  }
+}
+@media (max-width: 374px) {
+  html {
+    font-size: 7px;
+  }
+  .header-main-right {
+    gap: 5px;
+  }
+  .test-drive-bottom-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .test-drive-wrapper-second {
+    gap: 10px;
+  }
+  .test-drive-item-text {
+    width: 65px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .test-drive-title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .advanteges-wrapper-main-tittle,
+  .available-models-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .payments {
+    display: none;
+  }
+  .just-validate-error-label {
+    top: 167.8px;
+  }
+  .container,
+  .container-second {
+    max-width: initial;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 323px) {
+  .just-validate-error-label {
+    top: 196.8px;
+  }
+}
