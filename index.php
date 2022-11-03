@@ -546,10 +546,9 @@
             </div>
             <div class="test-drive-bottom-checkbox">
               <input type="checkbox" id="input" class="input-checkbox" name="checkbox">
-              <label for="input" class="label"></label>
-              <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
+              <label class="test-drive-bottom-checkbox-text" for="input">Нажимая на кнопку, вы соглашаетесь на обработку персональных
                 данных
-                и <a href="#" class="policy">политикой конфиденциальности</a> </p>
+                и <a href="#" class="policy">политикой конфиденциальности</a> </label>
             </div>
           </form>
         </div>
@@ -778,11 +777,12 @@
             <button type="submit" class="test-drive-bottom-button modal-dialog-form-button">Оформить предзаказ</button>
           </div>
           <div class="test-drive-bottom-checkbox modal-dialog-checkbox">
-            <input type="checkbox" id="modal-input" class="input-checkbox modal-checkbox" name="checkbox">
-            <label for="modal-input" class="label"></label>
-            <p class="test-drive-bottom-checkbox-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных
-              данных
-              и <a href="#" class="policy">политикой конфиденциальности</a> </p>
+            <input type="checkbox" id="modal-input" class="modal-checkbox" name="checkbox">
+            <label class="test-drive-bottom-checkbox-text" for="modal-input">Нажимая на кнопку, вы соглашаетесь на обработку персональных
+                данных
+                и <a href="#" class="modal-policy">политикой конфиденциальности</a> </label>
+
+
           </div>
         </form>
       </div>
@@ -799,6 +799,19 @@
     </div>
   </div>
 
+
+  <div class="modal-success">
+    <div class="modal-dialog">
+      <div class="modal-dialog-wrapper">
+        <h2 class="modal-dialog-title">Спасибо за заявку!</h2>
+      </div>
+      <a href="#" class="modal-close">
+        <svg width="29" height="29" class="modal-close-svg">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
 
 
 

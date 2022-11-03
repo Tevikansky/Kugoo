@@ -575,7 +575,7 @@ button {
 .test-drive-bottom-wrapper-main {
   padding-left: 136px;
   padding-top: 45px;
-  padding-bottom: 60px;
+  padding-bottom: 72px;
 }
 .test-drive-bottom-title {
   font-family: "Jost";
@@ -623,8 +623,7 @@ button {
 .test-drive-bottom-form-wrapper {
   display: flex;
   gap: 20px;
-  margin-bottom: 8px;
-  height: 54px;
+  margin-bottom: 20px;
   position: relative;
 }
 .input-test-drive-bottom {
@@ -639,7 +638,7 @@ button {
   letter-spacing: 0.155em;
   color: #5d6c7b;
   width: 50%;
-  height: 100%;
+  height: 54px;
   padding: 0 25px;
 }
 .test-drive-bottom-checkbox-text {
@@ -901,11 +900,26 @@ button {
   z-index: 10;
   display: flex;
 }
+.modal-success {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+}
+.modal-success.is-open,
 .modal.is-open {
   transform: translateX(0);
   visibility: visible;
   opacity: 1;
 }
+.modal-success.is-open .modal-dialog,
 .modal.is-open .modal-dialog {
   transform: translateY(0);
   opacity: 1;
@@ -972,7 +986,6 @@ button {
 }
 .modal-dialog-form-wrapper {
   display: block;
-  margin-bottom: 76px;
 }
 .modal-dialog-form-input {
   width: 100%;
@@ -982,11 +995,9 @@ button {
   width: 100%;
 }
 .modal-dialog-checkbox {
-  padding: 0 17px;
+  padding-left: 17px;
 }
-.modal-checkbox {
-  margin-top: -17px;
-}
+
 .modal-dialog-img {
   padding-right: 20px;
   padding-top: 1px;
@@ -996,6 +1007,15 @@ button {
   position: absolute;
   top: 16px;
   right: 15px;
+}
+.modal-policy {
+  text-decoration: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #6f73ee;
 }
 .is-invalid {
   border: 1px solid #ee685f;
@@ -1012,7 +1032,7 @@ button {
 }
 .test-drive-bottom-checkbox .just-validate-error-label {
   left: 0;
-  top: -5px;
+  top: -16px;
 }
 .footer-email-wrapper-form .just-validate-error-label {
   top: -18.6px;
@@ -1048,16 +1068,68 @@ button {
 .order-phone.link:hover,
 .footer-upper-tel:hover,
 .footer-upper-link:hover,
-.header-main-right-item:hover {
+.header-main-right-item:hover,
+.header-nav-left-social-link:hover,
+.online-chat-link:hover {
   border-bottom: 2px solid #6f73ee;
+}
+.header-nav-left-social-link {
+  border-bottom: 2px solid #ffffff;
+}
+.online-chat-link {
+  border-bottom: 2px solid #f4f7fb;
 }
 .link-policy:hover,
 .requisites:hover {
   text-decoration: underline;
 }
 .input-checkbox {
-  display: none;
+  position: relative;
+  height: 16px;
+  width: 16px;
+  border: none;
 }
+
+.input-checkbox::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+}
+
+.input-checkbox:checked::before {
+  background-image: url(../check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.modal-checkbox {
+  position: relative;
+  height: 16px;
+  min-width: 16px;
+  border: none;
+}
+
+.modal-checkbox::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #f4f7fb;
+}
+
+.modal-checkbox:checked::before {
+  background-image: url(../check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .label {
   display: block;
   height: 15px;
@@ -1069,12 +1141,9 @@ button {
   background: #f4f7fb;
   width: 43px;
 }
-.input-checkbox:checked ~ .label {
-  background-image: url(../check.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+.advanteges-wrapper-item-svg {
+  min-width: 22px;
 }
-
 @media (max-width: 1400px) {
   html {
     font-size: 15px;
@@ -1094,14 +1163,15 @@ button {
     display: block;
     margin: auto;
     position: relative;
+    width: 100%;
   }
   .second-advantages {
     display: block;
   }
   .woman-on-scooter-img {
     display: block;
-    margin: auto;
     position: relative;
+    width: 100%;
   }
   .advanteges-wrapper,
   .second-advanteges-wrapper {
@@ -1190,8 +1260,12 @@ button {
   .order-phone.link:hover,
   .footer-upper-tel:hover,
   .footer-upper-link:hover,
+  .header-nav-left-social-link:hover,
+  .online-chat-link:hover {
+    border-bottom: 2px solid transparent;
+  }
   .header-main-right-item:hover {
-    border-bottom: none;
+    border: 1px solid#6f73ee;
   }
   .link-policy:hover,
   .requisites:hover {
@@ -1304,6 +1378,7 @@ button {
   .test-drive-bottom-form-wrapper {
     display: block;
     height: auto;
+    margin-bottom: 20px;
   }
   .input-test-drive-bottom {
     width: 100%;
@@ -1312,10 +1387,6 @@ button {
   }
   .test-drive-bottom-button {
     width: 100%;
-  }
-
-  .modal-dialog-form-wrapper {
-    margin-bottom: 0;
   }
 }
 @media (max-width: 810px) {
@@ -1343,9 +1414,10 @@ button {
   }
   .test-drive-title,
   .advanteges-wrapper-main-tittle,
-  .available-models-title {
-    font-size: 30px;
-    line-height: 40px;
+  .available-models-title,
+  .test-drive-bottom-title {
+    font-size: 20px;
+    line-height: 30px;
   }
   .test-drive-text {
     font-size: 17px;
@@ -1359,10 +1431,6 @@ button {
   html {
     font-size: 9.5px;
   }
-  .woman-on-scooter-img,
-  .advantages-img {
-    max-height: 31.75rem;
-  }
 }
 @media (max-width: 470px) {
   html {
@@ -1370,9 +1438,6 @@ button {
   }
   .test-drive-wrapper-main {
     padding: 32px;
-  }
-  .test-drive-title {
-    font-size: 27px;
   }
   .footer-upper {
     display: block;
@@ -1420,10 +1485,7 @@ button {
   .header-main-right {
     gap: 5px;
   }
-  .test-drive-bottom-title {
-    font-size: 25px;
-    line-height: 30px;
-  }
+
   .test-drive-wrapper-second {
     gap: 10px;
   }
@@ -1432,10 +1494,7 @@ button {
     font-size: 12px;
     line-height: 15px;
   }
-  .test-drive-title {
-    font-size: 22px;
-    line-height: 32px;
-  }
+
   .advanteges-wrapper-main-tittle,
   .available-models-title {
     font-size: 20px;

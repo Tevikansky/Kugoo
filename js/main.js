@@ -25,6 +25,7 @@ const swiper = new Swiper('.swiper', {
 
 const modal = document.querySelector(".modal");
 const modalDialog = document.querySelector(".modal-dialog");
+const modalSuccess = document.querySelector(".modal-success");
 
 document.addEventListener("click", (event) => {
   if (
@@ -36,11 +37,16 @@ document.addEventListener("click", (event) => {
     modal.classList.toggle("is-open");
   }
 });
-document.addEventListener('keyup', (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.toggle("is-open");
+
+modalSuccess.addEventListener("click", (event) => {
+  if (
+    event.target.closest(".modal-close") || event.target.matches(".is-open")
+  ) {
+    event.preventDefault();
+    modalSuccess.classList.remove("is-open");
   }
 });
+
 
 
 const formPhone = document.querySelectorAll(".test-drive-bottom-form");
@@ -73,7 +79,7 @@ formPhone.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            alert("Заявка отправлена! Ждите звонка от нашего менеджера.");
+            modalSuccess.classList.add("is-open");
           } else {
             alert("Ошибка. Текст ошибки: "
               .response.statusText);
@@ -153,7 +159,6 @@ document.addEventListener("input", (e) => {
   }
 
 
-  console.log()
 
 });
 
@@ -180,7 +185,7 @@ validation
       }).then((response) => {
         if (response.ok) {
           thisForm.reset();
-          alert("Спасибо за подписку на наши новости!)");
+          modalSuccess.classList.add("is-open");
         } else {
           alert("Ошибка. Текст ошибки: "
             .response.statusText);
