@@ -1403,6 +1403,9 @@ button {
     justify-content: space-around;
     margin-bottom: 4px;
   }
+  .test-drive-bottom-checkbox-text {
+    max-width: 250px;
+  }
 }
 @media (max-width: 374px) {
   html {
