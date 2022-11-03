@@ -65,12 +65,12 @@
   <nav class="header-main">
     <div class="container">
     <div class="header-main-left-logo-mobile">
-            <a href="#" class="main-logo">Kugoo</a>
+            <a href="/" class="main-logo">Kugoo</a>
           </div>
       <div class="header-main-wrapper">
         <div class="header-main-left">
           <div class="header-main-left-logo">
-            <a href="#" class="main-logo">Kugoo</a>
+            <a href="/" class="main-logo">Kugoo</a>
           </div>
           <a href="#" class="header-main-left-catalog">
             <div class="catalog-menu">
@@ -631,7 +631,7 @@
       <div class="footer-middle">
         <div class="footer-middle-wrapper-first">
           <div class="footer-middle-wrapper-first-logo">
-            <a href="#" class="main-logo">Kugoo</a>
+            <a href="/" class="main-logo">Kugoo</a>
           </div>
           <div class="footer-middle-wrapper-first-downloads">
             <a href="#" class="footer-middle-wrapper-first-downloads-links">

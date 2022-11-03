@@ -1406,6 +1406,12 @@ button {
   .test-drive-bottom-checkbox-text {
     max-width: 250px;
   }
+  .footer-middle-wrapper-first-downloads {
+    flex-direction: column;
+  }
+  .footer-middle-wrapper-first-downloads-links:first-child {
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 374px) {
   html {
